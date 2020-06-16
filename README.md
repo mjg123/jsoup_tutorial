@@ -1,6 +1,6 @@
 # jsoup Tutorial
 
-The code in this repo supports by blog post about it:
+The code in this repo supports my blog post about it:
 https://www.twilio.com/blog/working-with-html-on-the-web-java-jsoup
 
 ## How To Use This Code
