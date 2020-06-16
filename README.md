@@ -1,8 +1,7 @@
 # jsoup Tutorial
 
 The code in this repo supports by blog post about it:
-
-&lt;URL TBC&gt;
+https://www.twilio.com/blog/working-with-html-on-the-web-java-jsoup
 
 ## How To Use This Code
 
