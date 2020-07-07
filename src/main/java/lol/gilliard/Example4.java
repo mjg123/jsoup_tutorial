@@ -2,9 +2,10 @@ package lol.gilliard;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.safety.Whitelist;
 
 import java.io.IOException;
+
+import static org.jsoup.safety.Whitelist.basicWithImages;
 
 public class Example4 {
 
@@ -19,7 +20,7 @@ public class Example4 {
         dangerousFragment.body().childNodes().forEach(System.out::println);
 
 
-        String cleanHTML = Jsoup.clean(xssHTML, Whitelist.basicWithImages());
+        String cleanHTML = Jsoup.clean(xssHTML, basicWithImages());
 
         Document safeFragment = Jsoup.parseBodyFragment(cleanHTML);
         System.out.print("Safe HTML:");
